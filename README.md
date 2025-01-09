@@ -6,9 +6,7 @@ This patch resolves the stuttering issue in **Saints Row: The Third** caused by 
 
 ## How It Works
 
-The included `d3d11.dll` and ASI script intercept the game's startup routine, applying a patch to memory that prevents it from attempting connections to the **My Steelport** service.
-
----
+This patch will intercept the game's startup routine, and prevent it from attempting connections to the **My Steelport** service.
 
 ## Installation Guide
 
@@ -17,15 +15,13 @@ The included `d3d11.dll` and ASI script intercept the game's startup routine, ap
 1. Download the **Ultimate ASI Loader**:
    - [Ultimate ASI Loader GitHub](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/latest)
 
-2. Ensure you have administrative privileges to modify files in the game directory.
-
----
+2. Ensure you have administrative privileges to modify files in the game directory. (Only if your Steam library is under `C:\Program Files (x86)`)
 
 ### Steps
 
 1. **Download the Patch Files**
-   - Download the [ASI file](https://github.com/ifarbod/sr3-no-agora/releases/latest).
-   - Extract its contents.
+   - Download the [zip file containing the ASI file](https://github.com/ifarbod/sr3-no-agora/releases/latest).
+   - Extract its contents, you can use Windows Explorer, WinRAR, 7-Zip, etc.
 
 2. **Copy the ASI Loader DLL**
    - Rename `dinput8.dll` (from Ultimate ASI Loader) to `d3d11.dll`.
@@ -44,8 +40,6 @@ The included `d3d11.dll` and ASI script intercept the game's startup routine, ap
 - The patch does not interfere with other game functionalities.
 - If you experience issues, try verifying the integrity of the game files through Steam or Epic Games Store and reinstalling the patch.
 - To uninstall, simply delete the `d3d11.dll` and `.asi` files from the game directory.
-
----
 
 ## Acknowledgments
 
