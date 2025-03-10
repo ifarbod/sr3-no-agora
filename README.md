@@ -37,7 +37,7 @@ This patch will intercept the game's startup routine, and prevent it from attemp
 
 ## Notes
 
-- The patch does not interfere with other game functionalities.
+- Don't worry about getting a VAC ban, the game doesn't use it.
 - If you experience issues, try verifying the integrity of the game files through Steam or Epic Games Store and reinstalling the patch.
 - To uninstall, simply delete the `d3d11.dll` and `.asi` files from the game directory.
 
